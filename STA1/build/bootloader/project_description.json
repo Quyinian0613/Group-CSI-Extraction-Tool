@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/pml/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/pml/esp/Multi/Multi/STA1/build/bootloader",
+    "config_file":        "/home/pml/esp/Multi/Multi/STA1/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2.3-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/pml/esp/esp-idf/components/efuse/Kconfig;/home/pml/esp/esp-idf/components/esp32/Kconfig;/home/pml/esp/esp-idf/components/esp_common/Kconfig;/home/pml/esp/esp-idf/components/log/Kconfig;/home/pml/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/pml/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/pml/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/pml/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/pml/esp/esp-idf/components/bootloader", "/home/pml/esp/esp-idf/components/bootloader_support", "/home/pml/esp/esp-idf/components/efuse", "/home/pml/esp/esp-idf/components/esp32", "/home/pml/esp/esp-idf/components/esp_common", "/home/pml/esp/esp-idf/components/esp_rom", "/home/pml/esp/esp-idf/components/esptool_py", "/home/pml/esp/esp-idf/components/log", "/home/pml/esp/esp-idf/components/bootloader/subproject/main", "/home/pml/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/pml/esp/esp-idf/components/partition_table", "/home/pml/esp/esp-idf/components/soc", "/home/pml/esp/esp-idf/components/spi_flash", "/home/pml/esp/esp-idf/components/xtensa", "" ]
+}
